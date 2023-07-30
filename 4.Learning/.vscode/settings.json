@@ -1,0 +1,21 @@
+{
+    "C_Cpp.clang_format_style": "file:D:/how-to-use-sxd-dsp28335/4.Learning/.clang-format",
+    "files.associations": {
+        "u.defs.h": "c",
+        "dsp2833x_device.h": "c",
+        "dsp2833x_examples.h": "c",
+        "board.h": "c",
+        "board.conf.h": "c",
+        "usdk.defs.h": "c",
+        "bsp.exit.h": "c",
+        "bsp.delay.h": "c",
+        "bsp.gpio.h": "c",
+        "bsp.sci.h": "c",
+        "common.h": "c",
+        "lib.lcd1602.h": "c",
+        "bsp.tim.h": "c",
+        "math.h": "c",
+        "bsp.i2c.h": "c",
+        "lib.pca9557.h": "c"
+    }
+}

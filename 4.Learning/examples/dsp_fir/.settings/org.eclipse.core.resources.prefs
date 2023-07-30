@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//debug/board/subdir_rules.mk=UTF-8
+encoding//debug/board/subdir_vars.mk=UTF-8
+encoding//debug/drvlib/common/source/subdir_rules.mk=UTF-8
+encoding//debug/drvlib/common/source/subdir_vars.mk=UTF-8
+encoding//debug/drvlib/headers/source/subdir_rules.mk=UTF-8
+encoding//debug/drvlib/headers/source/subdir_vars.mk=UTF-8
+encoding//debug/drvlib/usdk/subdir_rules.mk=UTF-8
+encoding//debug/drvlib/usdk/subdir_vars.mk=UTF-8
+encoding//debug/makefile=UTF-8
+encoding//debug/objects.mk=UTF-8
+encoding//debug/sources.mk=UTF-8
+encoding//debug/subdir_rules.mk=UTF-8
+encoding//debug/subdir_vars.mk=UTF-8
+encoding//debug/user/src/subdir_rules.mk=UTF-8
+encoding//debug/user/src/subdir_vars.mk=UTF-8
+encoding/<project>=UTF-8

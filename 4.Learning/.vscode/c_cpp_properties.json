@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "1",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}

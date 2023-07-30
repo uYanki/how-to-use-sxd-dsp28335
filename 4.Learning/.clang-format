@@ -1,0 +1,152 @@
+Language: Cpp
+
+UseTab: Never
+TabWidth: 4
+
+# 对齐连续的宏定义
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true # 跳过空行
+  AcrossComments: true # 跳过注释
+
+# 对齐连续赋值的等号
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: false # 不同符号
+
+# 对齐连续声明的变量名
+AlignConsecutiveDeclarations:
+  Enabled: true
+  ; AcrossEmptyLines: true
+  AcrossComments: true
+
+# 连续尾随的注释
+AlignTrailingComments: true
+
+# 位域
+AlignConsecutiveBitFields: true
+
+# 对齐多维数组中的元素
+AlignArrayOfStructures: Right
+
+# 对齐换行 `\`
+AlignEscapedNewlines: Left
+
+# 允许单行
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+
+# 模板声明换行
+AlwaysBreakTemplateDeclarations: MultiLine
+
+# 函数形参和实参的过长换行
+BinPackArguments: true
+BinPackParameters: false
+
+# 大括号换行
+BreakBeforeBraces: Custom
+; Attach: Always attach.
+; Linux: Like Attach, but break before braces on function, namespace and class definitions.
+; Mozilla: Like Attach, but break before braces on enum, function, and record definitions.
+; WebKit: Like Attach, but break before functions.
+; Allman: Always break before braces.
+; Custom: Configure each individual brace in BraceWrapping
+
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: false
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+# 访问修饰符
+AccessModifierOffset: -4
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Always
+
+# 列数限制
+ColumnLimit: 0 # 0: no limit
+
+# 缩进
+IndentWidth: 4
+PPIndentWidth: 2
+ConstructorInitializerIndentWidth: 4 # 初始化列表
+IndentAccessModifiers: false
+IndentCaseLabels: true
+IndentCaseBlocks: false
+IndentGotoLabels: true
+NamespaceIndentation: All
+
+# 自动补大括号 `{}`
+InsertBraces: false
+
+# 末尾添加空行
+InsertNewlineAtEOF: true
+
+# 最大连续的空行数
+MaxEmptyLinesToKeep: 1
+
+# 初始化列表
+PackConstructorInitializers: CurrentLine
+
+# 修饰对齐
+QualifierAlignment: Left # 修饰符
+PointerAlignment: Right # 指针
+ReferenceAlignment: Left # 引用符
+
+# 重新排版过长注释
+ReflowComments: false
+
+# 分割代码块
+SeparateDefinitionBlocks: Leave
+
+# 排序 头文件
+SortIncludes: CaseSensitive # Never, CaseSensitive, CaseInsensitive
+
+# 排序 using
+SortUsingDeclarations: true
+
+# 插入空格
+SpaceAfterCStyleCast: true # 类型转换
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: true # 模板关键字
+SpaceBeforeAssignmentOperators: true # 赋值运算符
+SpaceBeforeCaseColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeJsonColon: true
+SpaceBeforeParens: ControlStatements # 开括号之前
+SpacesInAngles: false # 尖括号 <>
+SpacesInSquareBrackets: false # 方括号 [], 除 lambda 表达式 和 未指明大小的数组
+SpacesInParentheses: false # 圆括号 ()
+SpaceInEmptyParentheses: false # 空的圆括号中
+SpacesBeforeTrailingComments: 2 # 尾随的注释 //
+
+# 开括号对齐
+AlignAfterOpenBracket: Align # AlwaysBreak
+BracedInitializerIndentWidth: 2
+
+#
+IncludeBlocks: Regroup
+KeepEmptyLinesAtTheStartOfBlocks: false
+ForEachMacros: [foreach, Q_FOREACH, BOOST_FOREACH]
+
+IndentPPDirectives: AfterHash # 宏定义'#'对齐 None,AfterHash,BeforeHash
+
