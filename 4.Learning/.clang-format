@@ -96,7 +96,7 @@ IndentGotoLabels: true
 NamespaceIndentation: All
 
 # 自动补大括号 `{}`
-InsertBraces: false
+InsertBraces: true
 
 # 末尾添加空行
 InsertNewlineAtEOF: true
